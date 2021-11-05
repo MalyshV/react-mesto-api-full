@@ -26,7 +26,7 @@ mongoose.connect('mongodb://localhost:27017/mestodb', {
 const options = {
   origin: [
     'http://localhost:3000',
-    // https://ВАШ ДОМЕЙН С ДОКУМЕНТА',
+    'http://api.express.mesto.nomoredomains.icu',
     // 'https://YOUR.github.io',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
