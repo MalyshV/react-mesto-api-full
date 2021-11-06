@@ -81,7 +81,7 @@ const createUser = (req, res, next) => {
 
 const getUsers = (req, res, next) => {
   User.find({})
-    .then((users) => res.send({ data: users }))
+    .then((users) => res.send(users))
     .catch((err) => {
       next(err);
     });
@@ -92,7 +92,7 @@ const getUser = (req, res, next) => {
   User.findById(userId)
     .then((user) => {
       if (user) {
-        return res.send({ data: user });
+        return res.send(user);
       }
       throw new NotFoundError('Пользователь по указанному _id не найден');
     })
