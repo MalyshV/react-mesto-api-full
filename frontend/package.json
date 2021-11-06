@@ -23,6 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "npm run build && scp -r ./build/* malyshv@51.250.0.236:/home/malyshv/react-mesto-api-full/frontend"
   },
+  "homepade": "https://express.mesto.nomoredomains.icu",
   "eslintConfig": {
     "extends": [
       "react-app",
