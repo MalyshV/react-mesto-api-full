@@ -228,7 +228,7 @@ function App() {
           isOpen={isInfoTooltipOpen}
           onClose={closeAllPopups}
           isRegistered={isRegistered}
-          />
+        />
         <Footer />
         <EditAvatarPopup
           isOpen={isEditAvatarPopupOpen}

@@ -15,14 +15,13 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "http://MalyshV.github.io/react-mesto-auth",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && scp -r ./build/* malyshv@51.250.0.236:/home/malyshv/react-mesto-api-full/frontend"
   },
   "eslintConfig": {
     "extends": [
