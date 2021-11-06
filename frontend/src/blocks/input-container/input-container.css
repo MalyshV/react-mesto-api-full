@@ -1,0 +1,12 @@
+.input-container {
+  max-width: 358px;
+  margin: auto;
+  border: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .input-container {
+    max-width: 238px;
+  }
+}

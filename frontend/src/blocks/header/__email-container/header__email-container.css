@@ -1,0 +1,12 @@
+.header__email-container {
+  margin: 0 24px 0 0;
+  padding: 0;
+  margin-right: 24px;
+}
+
+@media (max-width: 425px) {
+  .header__email-container {
+    margin-bottom: 18px;
+    margin-right: 0;
+  }
+}

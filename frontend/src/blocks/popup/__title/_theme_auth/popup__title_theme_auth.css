@@ -1,0 +1,13 @@
+.popup__title_theme_auth {
+  margin-left: 0;
+  max-width: 358px;
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .popup__title_theme_auth {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 240px;
+  }
+}

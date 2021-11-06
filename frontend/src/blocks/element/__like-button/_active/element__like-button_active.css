@@ -1,0 +1,11 @@
+.element__like-button_active {
+  background-image: url(../../../../images/LikeButtonBlack.svg);
+  opacity: 1;
+  cursor: pointer;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 22px;
+  height: 19px;
+}

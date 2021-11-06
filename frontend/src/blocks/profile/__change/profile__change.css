@@ -1,0 +1,6 @@
+.profile__change {
+  justify-content: space-between;
+  align-items: baseline;
+  display: flex;
+  margin: 0;
+}

@@ -1,0 +1,33 @@
+.input-container__button {
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 48px;
+  width: 358px;
+  height: 50px;
+  border: none;
+}
+
+.input-container__button:hover {
+  opacity: 0.8;
+}
+
+.input-container__button:disabled {
+  cursor: not-allowed;
+  color: #000000;
+  opacity: 0.2;
+  background: transparent;
+  border: 2px solid grey;
+}
+
+@media (max-width: 425px) {
+  .input-container__button {
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 17px;
+    width: 238px;
+    height: 46px;
+  }
+}

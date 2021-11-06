@@ -1,0 +1,8 @@
+.not-found {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: centre;
+  text-align: center;
+}

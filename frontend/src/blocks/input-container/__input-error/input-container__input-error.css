@@ -1,0 +1,6 @@
+.input-container__input-error {
+  display: none;
+  color: #FF0000;
+  font-size: 12px;
+  line-height: 15px;
+}

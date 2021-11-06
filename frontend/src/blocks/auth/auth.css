@@ -1,0 +1,9 @@
+.auth {
+  margin-top: 20px;
+}
+
+@media (max-width: 425px) {
+  .auth {
+    margin-top: 10px;
+  }
+}

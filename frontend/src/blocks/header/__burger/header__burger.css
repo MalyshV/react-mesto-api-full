@@ -1,0 +1,11 @@
+.header__burger {
+  display: block;
+  padding: 40px 0;
+  border-bottom: 1px solid #545454;
+}
+
+@media (min-width: 425px) {
+    .header__burger {
+      display: none;
+    }
+  }

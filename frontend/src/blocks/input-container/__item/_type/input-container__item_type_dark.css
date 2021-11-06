@@ -1,0 +1,10 @@
+.input-container__item_type_dark {
+  border-bottom: 2px solid #CCCCCC;
+  color: #CCCCCC;
+}
+
+@media (max-width: 425px) {
+  .input-container__item_type_dark {
+    margin-top: 40px;
+  }
+}

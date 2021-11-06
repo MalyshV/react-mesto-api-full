@@ -1,0 +1,15 @@
+.input-container__button_type_dark {
+  margin-top: 216px;
+  background: #FFF;
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media (max-width: 425px) {
+  .input-container__button_type_dark {
+    margin-top: 173px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
