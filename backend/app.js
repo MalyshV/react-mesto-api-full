@@ -27,6 +27,7 @@ const options = {
   origin: [
     'http://localhost:3000',
     'https://express.mesto.nomoredomains.icu',
+    'http://express.mesto.nomoredomains.icu',
     // 'https://YOUR.github.io',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
