@@ -114,8 +114,6 @@ class Api {
 }
 
 const api = new Api({
-  // baseUrl: 'http://localhost:3001',
-  // baseUrl: 'http://express.mesto.nomoredomains.icu',
   baseUrl: 'https://api.express.mesto.nomoredomains.icu',
   headers: {
     'Content-Type': 'application/json'
@@ -123,6 +121,3 @@ const api = new Api({
 });
 
 export default api;
-
-// мой старый токен: 61426457-aa06-4805-b055-d8aeddd40fb8
-// идентификатор группы: cohort-25

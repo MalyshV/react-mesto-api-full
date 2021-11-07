@@ -48,7 +48,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(helmet());
 app.use(limiter);
-app.use(requestLogger); // подключаем логгер запросов
+app.use(requestLogger);
 
 app.get('/crash-test', () => { // краш-тест для ревью
   setTimeout(() => {
@@ -78,7 +78,7 @@ app.post('/', logOut);
 app.use(auth);
 app.use('/', usersRouter);
 app.use('/', cardsRouter);
-app.use(errorLogger); // подключаем логгер ошибок
+app.use(errorLogger);
 app.use(errors());
 
 // eslint-disable-next-line no-unused-vars
