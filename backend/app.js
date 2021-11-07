@@ -47,7 +47,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(helmet());
-app.use(limiter);
 app.use(requestLogger);
 
 app.get('/crash-test', () => { // краш-тест для ревью
@@ -95,6 +94,8 @@ app.use((err, req, res, next) => {
   });
   next();
 });
+
+app.use(limiter);
 
 escape('<script>alert("hacked")</script>');
 
