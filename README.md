@@ -23,5 +23,5 @@
 
 Сайт доступен по ссылке: https://express.mesto.nomoredomains.icu/  
 Адрес бэкенда: https://api.express.mesto.nomoredomains.icu  
-Публичный api: 51.250.0.236
+Публичный IP: 51.250.0.236
 
