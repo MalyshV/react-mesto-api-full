@@ -7,9 +7,10 @@
 ---
 
 Репозиторий для приложения проекта `Mesto`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями. Бэкенд расположите в директории `backend/`, а фронтенд - в `frontend/`.
+---
 
-Сайт доступен по ссылке: (https://express.mesto.nomoredomains.icu/)
-Адрес бэкенда: (https://api.express.mesto.nomoredomains.icu)
+Сайт доступен по ссылке: https://express.mesto.nomoredomains.icu/  
+Адрес бэкенда: https://api.express.mesto.nomoredomains.icu  
 Публичный api: 51.250.0.236
 ------
 
